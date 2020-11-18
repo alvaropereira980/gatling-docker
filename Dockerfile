@@ -5,7 +5,7 @@ FROM openjdk:8-jdk-alpine
 WORKDIR /opt
 
 # gating version
-ENV GATLING_VERSION 3.4
+ENV GATLING_VERSION 3.4.0
 # create directory for gatling install
 RUN mkdir -p gatling
 
